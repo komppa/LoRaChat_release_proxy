@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@types/aws-lambda": "^8.10.114",
+    "@types/node": "^18.15.10",
+    "aws-sdk": "^2.1344.0",
+    "typescript": "^5.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "cd dist && npm install --production",
+    "build": "tsc && cp src/package.json dist/package.json && cd dist && npm install --production",
+    "start-api": "sam local start-api"
+  }
+}
