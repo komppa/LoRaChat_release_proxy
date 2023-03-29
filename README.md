@@ -4,7 +4,7 @@ Proxy for fetching the newest release of LoRa Chat on GitHub to be given back to
 
 ```bash
 npm run build   # Build the project
-cdk deploy      # Use --profile <PROFILE> if not set via cli
+cdk deploy      # Use --profile <PROFILE> if not set via cli (or export AWS_PROFILE=new_user_profile)
 ```
 
 
