@@ -2,6 +2,11 @@
 
 Proxy for fetching the newest release of LoRa Chat on GitHub to be given back to WebUSB flasher.
 
+```bash
+npm run build   # Build the project
+cdk deploy      # Use --profile <PROFILE> if not set via cli
+```
+
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
