@@ -43,6 +43,7 @@ export const handler = async (event: APIGatewayEvent, context: APIGatewayProxyCa
         headers: {
             'Content-Type': 'application/zip',
             'Content-Disposition': 'attachment; filename=release.zip',
+            'Access-Control-Allow-Origin': '*'
         },
         isBase64Encoded: true, // Indicate that the response body contains base64-encoded data
         body: zipBase64,
